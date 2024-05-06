@@ -3,7 +3,9 @@ import {Link, useNavigate} from 'react-router-dom'
 
 
 function Navbar() {
- 
+  let navigate = useNavigate()
+
+  let navbarComponent
   
 
   return (
